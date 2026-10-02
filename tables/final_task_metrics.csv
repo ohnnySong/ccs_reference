@@ -1,0 +1,4 @@
+task,records,accuracy_mean,accuracy_sd,balanced_accuracy_mean,balanced_accuracy_sd,macro_f1_mean,macro_f1_sd,macro_roc_auc_mean,macro_roc_auc_sd,key_class_sensitivity_mean,key_class_sensitivity_sd,key_class_specificity_mean,key_class_specificity_sd
+opacity_4_class,177,0.8813559322,0.0187379932,0.8522453037,0.0211539410,0.8553806907,0.0214150733,0.9742742258,0.0046644241,0.6692307692,0.0438529010,0.9483443709,0.0183767376
+contraction_3_class,177,0.9638418079,0.0030944777,0.7681962482,0.0208686148,0.7954153502,0.0190012483,,,1.0,0.0,1.0,0.0
+final_ccs_3_class,177,0.9796610169,0.0030944777,0.8282352941,0.0010739658,0.7831198618,0.0127165529,,,1.0,0.0,1.0,0.0

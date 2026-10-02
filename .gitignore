@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Controlled clinical artifacts and trained weights are never committed.
+data/private/
+data/images/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.key
+*.pem
+.env*

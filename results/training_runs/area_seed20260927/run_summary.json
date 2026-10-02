@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "best_selection_score": 0.8647398058119034,
+  "epochs_completed": 56,
+  "train_records": 777,
+  "validation_records": 177,
+  "test_accessed": false
+}

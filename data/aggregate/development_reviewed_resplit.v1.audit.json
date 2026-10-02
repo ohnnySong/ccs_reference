@@ -1,0 +1,42 @@
+{
+  "schema_version": "ccs.reviewed-resplit.v1",
+  "input_records": 954,
+  "reviewed_records": 23,
+  "reviewed_patient_groups_forced_to_train": 22,
+  "label_changes": {
+    "1_to_0": 2,
+    "1_to_1": 4,
+    "1_to_2": 2,
+    "2_to_0": 2,
+    "2_to_1": 7,
+    "2_to_2": 6
+  },
+  "changed_label_records": 13,
+  "split_seed": 877,
+  "split_counts": {
+    "train": 777,
+    "val": 177
+  },
+  "grade_counts": {
+    "train": {
+      "0": 149,
+      "1": 290,
+      "2": 225,
+      "3": 113
+    },
+    "val": {
+      "0": 34,
+      "1": 66,
+      "2": 51,
+      "3": 26
+    }
+  },
+  "wtw_source_counts": {
+    "embedded_filename": 305,
+    "patient_database": 342,
+    "protocol_default": 307
+  },
+  "patient_overlap": 0,
+  "eye_overlap": 0,
+  "test_records_loaded": 0
+}

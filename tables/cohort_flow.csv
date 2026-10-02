@@ -1,0 +1,9 @@
+stage,count,notes
+unique_gradable_images,954,After anomalous-group and duplicate-registration removal
+clinician_reviewed_boundary_images,23,Blinded single-clinician review
+changed_labels,13,Changed among the 23 reviewed images
+training_images,777,Patient-disjoint fixed split
+internal_validation_images,177,Patient-disjoint fixed split
+patient_overlap,0,Training versus validation
+eye_overlap,0,Training versus validation
+locked_test_images_accessed,0,Development release

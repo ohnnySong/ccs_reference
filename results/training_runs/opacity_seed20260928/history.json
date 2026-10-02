@@ -1,0 +1,3213 @@
+[
+  {
+    "epoch": 0,
+    "selection_score": 0.8359691325654506,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          33,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.864406779661017,
+      "balanced_accuracy": 0.8397093102975456,
+      "macro_f1": 0.8343661992516955,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9166666666666666,
+          "recall_sensitivity": 0.9705882352941176,
+          "specificity": 0.9790209790209791,
+          "f1": 0.9428571428571428,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9846153846153847,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.990990990990991,
+          "f1": 0.9770992366412214,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.918670546791239
+    }
+  },
+  {
+    "epoch": 1,
+    "train_loss": 0.6807947540283203,
+    "selection_score": 0.8370650401980324,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          33,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.864406779661017,
+      "balanced_accuracy": 0.8397093102975456,
+      "macro_f1": 0.8359317815839555,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9428571428571428,
+          "recall_sensitivity": 0.9705882352941176,
+          "specificity": 0.986013986013986,
+          "f1": 0.9565217391304348,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9696969696969697,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.927317523868186
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.6674514770507812,
+    "selection_score": 0.8308978187848157,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.8587570621468926,
+      "balanced_accuracy": 0.832356369121075,
+      "macro_f1": 0.8302727257835617,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9238788254115704
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.6601306474208832,
+    "selection_score": 0.8308978187848157,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.8587570621468926,
+      "balanced_accuracy": 0.832356369121075,
+      "macro_f1": 0.8302727257835617,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9238788254115704
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.6503397500514985,
+    "selection_score": 0.8308978187848157,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.8587570621468926,
+      "balanced_accuracy": 0.832356369121075,
+      "macro_f1": 0.8302727257835617,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9238788254115704
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.5989443564414978,
+    "selection_score": 0.8308978187848157,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.8587570621468926,
+      "balanced_accuracy": 0.832356369121075,
+      "macro_f1": 0.8302727257835617,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9238788254115704
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.6357159757614136,
+    "selection_score": 0.8308978187848157,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.8587570621468926,
+      "balanced_accuracy": 0.832356369121075,
+      "macro_f1": 0.8302727257835617,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9238788254115704
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.6257680320739746,
+    "selection_score": 0.8395496299366267,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.864406779661017,
+      "balanced_accuracy": 0.8419717537364596,
+      "macro_f1": 0.8385115768795556,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9274143940947304
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.604871392250061,
+    "selection_score": 0.8308978187848157,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.8587570621468926,
+      "balanced_accuracy": 0.832356369121075,
+      "macro_f1": 0.8302727257835617,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9411764705882353,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.986013986013986,
+          "f1": 0.9411764705882353,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9552238805970149,
+          "recall_sensitivity": 0.9696969696969697,
+          "specificity": 0.972972972972973,
+          "f1": 0.9624060150375939,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9238788254115704
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.6062741577625275,
+    "selection_score": 0.8358475459441217,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.864406779661017,
+      "balanced_accuracy": 0.8361442479089538,
+      "macro_f1": 0.8357203879591939,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9265255292652553
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.610661325454712,
+    "selection_score": 0.8358475459441217,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          9,
+          17
+        ]
+      ],
+      "exact_accuracy": 0.864406779661017,
+      "balanced_accuracy": 0.8361442479089538,
+      "macro_f1": 0.8357203879591939,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8125,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9285714285714286,
+          "f1": 0.787878787878788,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6071428571428571,
+          "recall_sensitivity": 0.6538461538461539,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6296296296296297,
+          "support": 26
+        }
+      },
+      "qwk": 0.9265255292652553
+    }
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.6327576744556427,
+    "selection_score": 0.8444993570959329,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8457596325243384,
+      "macro_f1": 0.8439592390551879,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9300623614904912
+    }
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.59971954703331,
+    "selection_score": 0.8444993570959329,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8457596325243384,
+      "macro_f1": 0.8439592390551879,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9300623614904912
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.6047550666332245,
+    "selection_score": 0.8502195845808662,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          40,
+          10
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8506615933086521,
+      "macro_f1": 0.8500301522689582,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6428571428571429,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9337748344370861,
+          "f1": 0.6666666666666666,
+          "support": 26
+        }
+      },
+      "qwk": 0.932648401826484
+    }
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.6132128012180328,
+    "selection_score": 0.8502195845808662,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          40,
+          10
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8506615933086521,
+      "macro_f1": 0.8500301522689582,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6428571428571429,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9337748344370861,
+          "f1": 0.6666666666666666,
+          "support": 26
+        }
+      },
+      "qwk": 0.932648401826484
+    }
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.5915168499946595,
+    "selection_score": 0.8444993570959329,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8457596325243384,
+      "macro_f1": 0.8439592390551879,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9300623614904912
+    }
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.6001858568191528,
+    "selection_score": 0.8444993570959329,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8457596325243384,
+      "macro_f1": 0.8439592390551879,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9300623614904912
+    }
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.5801599359512329,
+    "selection_score": 0.8444993570959329,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8457596325243384,
+      "macro_f1": 0.8439592390551879,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9300623614904912
+    }
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.56712397813797,
+    "selection_score": 0.8502195845808662,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          40,
+          10
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8506615933086521,
+      "macro_f1": 0.8500301522689582,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6428571428571429,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9337748344370861,
+          "f1": 0.6666666666666666,
+          "support": 26
+        }
+      },
+      "qwk": 0.932648401826484
+    }
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.5565122032165527,
+    "selection_score": 0.8444993570959329,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8457596325243384,
+      "macro_f1": 0.8439592390551879,
+      "per_class": {
+        "opacity_0": {
+          "precision": 0.9696969696969697,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 0.993006993006993,
+          "f1": 0.955223880597015,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9558823529411765,
+          "recall_sensitivity": 0.9848484848484849,
+          "specificity": 0.972972972972973,
+          "f1": 0.9701492537313432,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9300623614904912
+    }
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.5910756766796113,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.5535865008831025,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.6241803479194641,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 23,
+    "train_loss": 0.5818415141105652,
+    "selection_score": 0.8552237305178481,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          40,
+          10
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8813559322033898,
+      "balanced_accuracy": 0.8544494720965309,
+      "macro_f1": 0.8555555555555555,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6428571428571429,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9337748344370861,
+          "f1": 0.6666666666666666,
+          "support": 26
+        }
+      },
+      "qwk": 0.9353576459539834
+    }
+  },
+  {
+    "epoch": 24,
+    "train_loss": 0.5449792337417603,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 25,
+    "train_loss": 0.5897587847709655,
+    "selection_score": 0.8552237305178481,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          40,
+          10
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8813559322033898,
+      "balanced_accuracy": 0.8544494720965309,
+      "macro_f1": 0.8555555555555555,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6428571428571429,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9337748344370861,
+          "f1": 0.6666666666666666,
+          "support": 26
+        }
+      },
+      "qwk": 0.9353576459539834
+    }
+  },
+  {
+    "epoch": 26,
+    "train_loss": 0.5898609268665314,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 27,
+    "train_loss": 0.56965989112854,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 28,
+    "train_loss": 0.5832776427268982,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 29,
+    "train_loss": 0.5535855901241302,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 30,
+    "train_loss": 0.5648199498653412,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 31,
+    "train_loss": 0.5926013350486755,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 32,
+    "train_loss": 0.5851376938819886,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 33,
+    "train_loss": 0.5695955073833465,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 34,
+    "train_loss": 0.5701915502548218,
+    "selection_score": 0.8438151480283075,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          38,
+          12
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8446455505279035,
+      "macro_f1": 0.8434592612427664,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8260869565217391,
+          "recall_sensitivity": 0.7450980392156863,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7835051546391751,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9205298013245033,
+          "f1": 0.6428571428571429,
+          "support": 26
+        }
+      },
+      "qwk": 0.9301559524422256
+    }
+  },
+  {
+    "epoch": 35,
+    "train_loss": 0.5536390662193298,
+    "selection_score": 0.8438151480283075,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          38,
+          12
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8700564971751412,
+      "balanced_accuracy": 0.8446455505279035,
+      "macro_f1": 0.8434592612427664,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8260869565217391,
+          "recall_sensitivity": 0.7450980392156863,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7835051546391751,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9205298013245033,
+          "f1": 0.6428571428571429,
+          "support": 26
+        }
+      },
+      "qwk": 0.9301559524422256
+    }
+  },
+  {
+    "epoch": 36,
+    "train_loss": 0.5139881229400635,
+    "selection_score": 0.8495035030329148,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8494846423417852,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9565217391304348,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.972972972972973,
+          "f1": 0.9777777777777777,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9327391439527413
+    }
+  },
+  {
+    "epoch": 37,
+    "train_loss": 0.5670840013027191,
+    "selection_score": 0.8543794669870174,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8813559322033898,
+      "balanced_accuracy": 0.8544494720965309,
+      "macro_f1": 0.854349464797226,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9358396768681063
+    }
+  },
+  {
+    "epoch": 38,
+    "train_loss": 0.5221080780029297,
+    "selection_score": 0.8543794669870174,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8813559322033898,
+      "balanced_accuracy": 0.8544494720965309,
+      "macro_f1": 0.854349464797226,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9358396768681063
+    }
+  },
+  {
+    "epoch": 39,
+    "train_loss": 0.5323732566833496,
+    "selection_score": 0.8543794669870174,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          11
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8813559322033898,
+      "balanced_accuracy": 0.8544494720965309,
+      "macro_f1": 0.854349464797226,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8333333333333334,
+          "recall_sensitivity": 0.7843137254901961,
+          "specificity": 0.9365079365079365,
+          "f1": 0.8080808080808081,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6206896551724138,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9271523178807947,
+          "f1": 0.6545454545454545,
+          "support": 26
+        }
+      },
+      "qwk": 0.9358396768681063
+    }
+  },
+  {
+    "epoch": 40,
+    "train_loss": 0.5486629128456115,
+    "selection_score": 0.8487349970778416,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          39,
+          12
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8483867766916807,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9205298013245033,
+          "f1": 0.6428571428571429,
+          "support": 26
+        }
+      },
+      "qwk": 0.9332373212632445
+    }
+  },
+  {
+    "epoch": 41,
+    "train_loss": 0.5210800647735596,
+    "selection_score": 0.8487349970778416,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          39,
+          12
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8483867766916807,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9205298013245033,
+          "f1": 0.6428571428571429,
+          "support": 26
+        }
+      },
+      "qwk": 0.9332373212632445
+    }
+  },
+  {
+    "epoch": 42,
+    "train_loss": 0.5076158761978149,
+    "selection_score": 0.8487349970778416,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          39,
+          12
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8483867766916807,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9205298013245033,
+          "f1": 0.6428571428571429,
+          "support": 26
+        }
+      },
+      "qwk": 0.9332373212632445
+    }
+  },
+  {
+    "epoch": 43,
+    "train_loss": 0.5166162180900574,
+    "selection_score": 0.8487349970778416,
+    "metrics": {
+      "labels": [
+        "opacity_0",
+        "opacity_1",
+        "opacity_2",
+        "opacity_3"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          66,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          39,
+          12
+        ],
+        [
+          0,
+          0,
+          8,
+          18
+        ]
+      ],
+      "exact_accuracy": 0.8757062146892656,
+      "balanced_accuracy": 0.8495475113122172,
+      "macro_f1": 0.8483867766916807,
+      "per_class": {
+        "opacity_0": {
+          "precision": 1.0,
+          "recall_sensitivity": 0.9411764705882353,
+          "specificity": 1.0,
+          "f1": 0.9696969696969697,
+          "support": 34
+        },
+        "opacity_1": {
+          "precision": 0.9705882352941176,
+          "recall_sensitivity": 1.0,
+          "specificity": 0.9819819819819819,
+          "f1": 0.9850746268656716,
+          "support": 66
+        },
+        "opacity_2": {
+          "precision": 0.8297872340425532,
+          "recall_sensitivity": 0.7647058823529411,
+          "specificity": 0.9365079365079365,
+          "f1": 0.7959183673469387,
+          "support": 51
+        },
+        "opacity_3": {
+          "precision": 0.6,
+          "recall_sensitivity": 0.6923076923076923,
+          "specificity": 0.9205298013245033,
+          "f1": 0.6428571428571429,
+          "support": 26
+        }
+      },
+      "qwk": 0.9332373212632445
+    }
+  }
+]

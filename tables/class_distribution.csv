@@ -1,0 +1,4 @@
+split,opacity_0,opacity_1,opacity_2,opacity_3,total
+train,149,290,225,113,777
+internal_validation,34,66,51,26,177
+total,183,356,276,139,954
