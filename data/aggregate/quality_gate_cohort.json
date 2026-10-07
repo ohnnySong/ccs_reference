@@ -1,0 +1,25 @@
+{
+  "schema_version": "ccs.quality-gate-cohort.v1",
+  "total_images": 1785,
+  "gradable_images": 1164,
+  "na_ungradable_images": 621,
+  "splits": {
+    "train": {
+      "gradable": 699,
+      "na_ungradable": 372,
+      "total": 1071
+    },
+    "development_validation": {
+      "gradable": 233,
+      "na_ungradable": 124,
+      "total": 357
+    },
+    "frozen_internal_test": {
+      "gradable": 232,
+      "na_ungradable": 125,
+      "total": 357
+    }
+  },
+  "role": "binary_gradable_vs_na_quality_gate",
+  "na_used_for_opacity_or_area_loss": false
+}

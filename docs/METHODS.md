@@ -2,9 +2,13 @@
 
 ## Study Data and Split
 
-The final gradable-image development cohort contained 954 images after exclusion of the anomalous validation group and removal of duplicate registrations. Twenty-three opacity grade 1/2 boundary images underwent blinded single-clinician review; 13 labels changed. The 22 patient groups represented by reviewed images were assigned to training before the remaining groups were stratified. The fixed split contained 777 training images and 177 internal-validation images, with no patient-group or eye-group overlap.
+The complete image-quality cohort contained 1,785 images: 1,164 gradable images and 621 ungradable `NA` images. Patient-level splitting assigned 1,071 images to training, 357 to development validation, and 357 to the frozen internal test set. The respective gradable/NA counts were 699/372, 233/124, and 232/125.
+
+The expanded gradable development manifest contained 1,471 records. Exclusion of 134 anomalous grouped records and removal of 383 duplicate registrations produced the final 954-image gradable cohort. Twenty-three opacity grade 1/2 boundary images underwent blinded single-clinician review; 13 labels changed. The 22 patient groups represented by reviewed images were assigned to training before the remaining groups were stratified. The fixed split contained 777 training images and 177 internal-validation images, with no patient-group or eye-group overlap.
 
 The opacity class distribution was 149/290/225/113 for grades 0/1/2/3 in training and 34/66/51/26 in internal validation. The split seed was `877`.
+
+NA images were used only for the gradable-versus-ungradable quality task. They were excluded from opacity-grade and opening-area losses because they did not carry reliable labels for those targets. At inference, an image classified as NA stops before grading and area estimation and is referred for review.
 
 ## Image Processing
 

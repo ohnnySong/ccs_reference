@@ -8,7 +8,9 @@ Reproducibility release for the final reviewed-label CCS development pipeline. T
 
 ## Current Release
 
-The released route uses a frozen ConvNeXt-Tiny image encoder, a regularized four-class anterior-capsule opacity head, a WTW-calibrated opening-area head, deterministic contraction grading, and the final CCS diagnostic rule. After duplicate removal and blinded review of 23 boundary images, the patient-disjoint development cohort contains 777 training images and 177 internal-validation images.
+The final system uses two stages. Stage 1 is an image-quality gate trained on 1,785 images: 1,164 gradable and 621 ungradable `NA` images. Stage 2 applies opacity grading, opening-area prediction, and the final CCS rule only to images that pass the gate and have reliable grade and area labels.
+
+The current best Stage 2 route uses a frozen ConvNeXt-Tiny image encoder, a regularized four-class anterior-capsule opacity head, a WTW-calibrated opening-area head, deterministic contraction grading, and the final CCS diagnostic rule. The expanded gradable development manifest initially contained 1,471 records. Removing 134 anomalous grouped records and 383 duplicate registrations produced 954 unique gradable images. After blinded review of 23 boundary images, the patient-disjoint cohort contains 777 training images and 177 internal-validation images.
 
 Five matched training runs use seeds `20260927`, `20260928`, `20260929`, `20260930`, and `20261001` on the same fixed split.
 
@@ -19,6 +21,15 @@ Five matched training runs use seeds `20260927`, `20260928`, `20260929`, `202609
 | Final CCS diagnosis, 3 classes | 97.97 +/- 0.31% | 82.82 +/- 0.11% | 0.7831 +/- 0.0127 | Not calculated |
 
 Values are mean +/- sample standard deviation across the five training seeds. The complete machine-readable results are in [`results/multiseed_mean.json`](results/multiseed_mean.json).
+
+## Data Populations
+
+| Route | Gradable | Ungradable NA | Total |
+|---|---:|---:|---:|
+| Complete quality-gate cohort | 1,164 | 621 | 1,785 |
+| Current best grading/area cohort | 954 | 0 | 954 |
+
+NA images contribute to the quality-gate classification loss, but not to the four-class opacity or area-regression losses because they do not have reliable opacity-grade and opening-area labels. See [`tables/quality_gate_distribution.csv`](tables/quality_gate_distribution.csv) for the complete split and [`docs/DATA_FLOW.md`](docs/DATA_FLOW.md) for the relationship between the two cohorts.
 
 ## Repository Layout
 
@@ -65,6 +76,7 @@ Exact hyperparameters and seed values are frozen in [`configs/ccs_reviewed_multi
 - [`tables/final_task_metrics.csv`](tables/final_task_metrics.csv): main manuscript metrics.
 - [`tables/per_seed_metrics.csv`](tables/per_seed_metrics.csv): five individual training runs.
 - [`tables/cohort_flow.csv`](tables/cohort_flow.csv): cohort and review flow.
+- [`tables/quality_gate_distribution.csv`](tables/quality_gate_distribution.csv): gradable/NA quality-gate split.
 
 ## Limitations
 
